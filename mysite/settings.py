@@ -25,7 +25,7 @@ SECRET_KEY = 'k-)jcjohnj_hee2^mnep^=!oq1-w46u$n*p-oamhww%7)tjq*&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mspark.pythonanywhere.com']
+ALLOWED_HOSTS = ['mspark.pythonanywhere.com', ]
 
 
 # Application definition
