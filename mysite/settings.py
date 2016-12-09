@@ -25,7 +25,7 @@ SECRET_KEY = 'k-)jcjohnj_hee2^mnep^=!oq1-w46u$n*p-oamhww%7)tjq*&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mspark.pythonanywhere.com']
 
 
 # Application definition
@@ -47,7 +47,7 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleare',
 ]
 
 ROOT_URLCONF = 'mysite.urls'
